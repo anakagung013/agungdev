@@ -148,28 +148,6 @@ const Testimoni = ({
           required
         />
       </div>
-      <div className="name block">
-        <div>
-          <label htmlFor="frm-first">First Name</label>
-          <input
-            id="frm-first"
-            type="text"
-            name="first"
-            autoComplete="given-name"
-            required
-          />
-        </div>
-        <div>
-          <label htmlFor="frm-last">Last Name</label>
-          <input
-            id="frm-last"
-            type="text"
-            name="last"
-            autoComplete="family-name"
-            required
-          />
-        </div>
-      </div>
       <div className="message block">
         <label htmlFor="frm-message">Message</label>
         <textarea id="frm-message" rows="6" name="message"></textarea>
