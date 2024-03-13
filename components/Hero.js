@@ -37,27 +37,25 @@ const Hero = ({
             variants={scrollAnimation}>
             <div className=" flex flex-col justify-center items-start row-start-2 sm:row-start-1">
               <h1 className="text-3xl lg:text-4xl xl:text-5xl font-medium text-black-600 leading-normal">
-                Listen a Music without ads using <strong>Agung Music</strong>.
+               Download Apps from Agung Dev for <strong>Free</strong>.
               </h1>
               <p className="text-black-500 mt-4 mb-6">
-                Provide a Music for all your needs with ease and fun using
-                Agung Music discover interesting features from us.
+                Official Website Agung Dev, Download our Apps now!
               </p>
               {/* <ButtonPrimary>Get Started</ButtonPrimary> */}
             </div>
-            <div className="flex w-full">
+            {/* <div className="flex w-full">
               <motion.div className="h-full w-full" variants={scrollAnimation}>
                 <Image
-                  src="/assets/Home.png"
-                  alt="HOME
-                  "
+                  src=""
+                  alt=""
                   quality={100}
                   width={300}
                   height={300}
                   layout="responsive"
                 />
               </motion.div>
-            </div>
+            </div> */}
           </motion.div>
       </ScrollAnimationWrapper>
       <div className="relative w-full flex">

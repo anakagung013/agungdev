@@ -80,13 +80,10 @@ const Pricing = () => {
                   <a href="https://agungmusic.agungdev.online" download="Agung-Music.apk">
                     <ButtonOutline> for Web</ButtonOutline>
                   </a>
-                  
-                  
-                 
                 </div>
               </motion.div>
             </ScrollAnimationWrapper>
-            {/* <ScrollAnimationWrapper className="flex justify-center">
+            <ScrollAnimationWrapper className="flex justify-center">
               <motion.div
                 variants={scrollAnimation}
                 className="flex flex-col justify-center items-center border-2 border-gray-500 rounded-xl py-4 px-6 lg:px-12 xl:px-20"
@@ -106,11 +103,11 @@ const Pricing = () => {
                 />
               </div>
               <p className="text-lg text-black-600 font-medium capitalize my-2 sm:my-7">
-                Agung Music for Web{" "}
+                Agung Savings{" "}
               </p>
               <ul className="flex flex-col list-inside pl-6 xl:pl-0 items-start justify-start text-left text-black-500 flex-grow">
                 <li className="relative check custom-list my-2">
-                  Unlimited Music
+                Can include your savings
                 </li>
                 <li className="relative check custom-list my-2">
                   No ads
@@ -121,23 +118,20 @@ const Pricing = () => {
                 <li className="relative check custom-list my-2">
                   Works on All Devices
                 </li>
-                <li className="relative check custom-list my-2">
-                  Connect Anyware{" "}
-                </li>
               </ul>
               <div className="flex flex-col w-full justify-center mb-8 flex-none mt-12">
                 <p className="text-2xl text-black-600 text-center mb-4 ">
                   Free
                 </p>
-                <a href="https://agungmusic.agungdev.online">
-                  <ButtonOutline>Select</ButtonOutline>
-                </a>
+                <a download href="./Agung-Savings-v3.1.0.apk" target="_blank" alt="agungmusic" rel="noopener noreferrer">
+                    <ButtonOutline> Download</ButtonOutline>
+                  </a>
                 
               </div>
               </motion.div>
-            </ScrollAnimationWrapper> */}
-            <ScrollAnimationWrapper className="flex justify-center">
-              {/* <motion.div
+            </ScrollAnimationWrapper> 
+            {/* <ScrollAnimationWrapper className="flex justify-center">
+              { <motion.div
                 variants={scrollAnimation}
                 className="flex flex-col justify-center items-center border-2 border-gray-500 rounded-xl py-4 px-6 lg:px-12 xl:px-20"
                 whileHover={{
@@ -146,8 +140,8 @@ const Pricing = () => {
                     duration: .2
                   }
                 }}
-              > */}
-              {/* <div className="p-4 lg:p-0 mt-6 lg:mt-16">
+              > }
+               <div className="p-4 lg:p-0 mt-6 lg:mt-16">
                 <Image
                   src="/assets/Premium.png"
                   width={145}
@@ -184,9 +178,9 @@ const Pricing = () => {
                 </p>
 
                 <ButtonOutline>Select</ButtonOutline>
-              </div> */}
-              {/* </motion.div> */}
-            </ScrollAnimationWrapper>
+              </div>
+               </motion.div>
+            {</ScrollAnimationWrapper>} */}
           </div>
         </div>
         <div className="flex flex-col w-full my-16">

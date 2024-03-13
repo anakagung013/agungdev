@@ -5,8 +5,9 @@ import getScrollAnimation from "../utils/getScrollAnimation";
 import ScrollAnimationWrapper from "./Layout/ScrollAnimationWrapper";
 
 const features = [
-  "Can Play a Music",
-  "Without ads."
+  "Free",
+  "Without Ads.",
+  "Easy to Use"
 ]
 
 const Feature = () => {
@@ -18,7 +19,7 @@ const Feature = () => {
       id="feature"
     >
       <div className="grid grid-flow-row sm:grid-flow-col grid-cols-1 sm:grid-cols-2 gap-8 p  y-8 my-12">
-        <ScrollAnimationWrapper className="flex w-full justify-end">
+        {/* <ScrollAnimationWrapper className="flex w-full justify-end">
           <motion.div className="h-full w-full p-4" variants={scrollAnimation}>
             <Image
               src="/assets/Home.png"
@@ -29,7 +30,7 @@ const Feature = () => {
               width={300}
             />
           </motion.div>
-        </ScrollAnimationWrapper>
+        </ScrollAnimationWrapper> */}
         <ScrollAnimationWrapper>
 
         <motion.div className="flex flex-col items-end justify-center ml-auto w-full lg:w-9/12" variants={scrollAnimation}>
