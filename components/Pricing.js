@@ -73,7 +73,7 @@ const Pricing = () => {
                   <p className="text-2xl text-black-600 text-center mb-4 ">
                     Free
                   </p>
-                  <a download href="./AgungMusic0.5.3.apk" target="_blank" alt="agungmusic" rel="noopener noreferrer">
+                  <a download href="https://shop.agungdev.online/index.php/product/agung-music/" target="_blank" alt="agungmusic" rel="noopener noreferrer">
                     <ButtonOutline> Download</ButtonOutline>
                   </a>
                   
